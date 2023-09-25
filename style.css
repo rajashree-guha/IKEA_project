@@ -1,0 +1,106 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;400&family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+footer{
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 90px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    opacity: 0.4;
+}
+.upper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.square{
+    width: 315px;
+}
+
+.square>div>p{
+    color: grey;
+}
+.underline{
+    text-decoration: underline;
+}
+
+.button1{
+    border: 2px solid black;
+    background-color: black;
+    color:white;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.button1:hover{
+    opacity: 0.8;
+}
+
+.icon>img{
+width: 20px;
+height: 20px;
+padding: 5px ;
+border: 1px solid #CFCFCF;
+border-radius: 90px;
+margin: 10px;
+opacity: 0.7;
+}
+
+.icon>img:hover{
+    border-color: black;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 20px 0 20px;
+   
+}
+
+#country{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 170px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+#country:hover{
+    border: 3px solid black;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+#footer-p{
+    font-size: 12px;
+  
+}
+
+.footer-text>a{
+   font-size: 13px;
+   padding: 5px;
+}
